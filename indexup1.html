@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uwhe website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/325bf0e95b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hcc">HCC</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#mentors">Mentors</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><spanu>University of Wisconsin-Madison</spanu></p>
+            <h1><span>Hydro</span><span2> Energy.</span2></h1> 
+        </div>
+    </div>
+</div>
+
+<!----------about---------->
+<div id="about">
+<div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Attachments/crestcropped.PNG" class="profile-pic">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Our Team</h1>
+                <p><br>We are a UW-Madison student organization dedicated to promoting 
+                    hydropower research and development. Our commitment to clean energy 
+                    is exhibited through community connection initiatives, Department of 
+                    Energy-sponsored competition participation, and direct engagement 
+                    with industry partners.
+                    We are sponsored by the Hydropower Foundation. <br><br></p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Goals')">Goals</p>
+                    <p class="tab-links" onclick="opentab('Opportunities')">Opportunities</p>
+                    <!--<p class="tab-links" onclick="opentab('Resources')">Resources</p>-->
+                </div>
+                <div class="tab-contents active-tab" id="Goals">
+                    <ul>
+                        <li><br><span><i class="fa-solid fa-gears"></i> Experiential Development</span><br><br>
+                            Organizing participation in DOE competitions, engineering workshops, and industry events.<br></li>
+                        
+                        <li><span><i class="fa-solid fa-users"></i> Community Involvement</span><br><br>
+                            Participating in campus and community events, participating in community clean-ups, and volunteering to promote sustainable energy initiatives.<br></li>
+                        
+                        <li><span><i class="fa-solid fa-briefcase"></i>Career Exposure</span><br><br>
+                            Attending local industry conferences, spreading awareness on campus and online career opportunities, and offering networking events, interviews, and Q&As.<br></li>
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="Opportunities">
+                    <ul>
+                        <li><br><span><i class="fa-solid fa-hand-holding-heart"></i> Volunteering and Community Involvement</span><br><br>
+                            Hosting tables and panels to local communities and schools to promote hydropower education.<br><br>
+                        </li>
+                        
+                        <li><span><i class="fa-solid fa-chalkboard-user"></i> Seminars and Panels</span><br><br>
+                            Hosting seminars, interviews, and panels via our network of industry professionals to the local UW-Madison community.
+                            Topics range from hydropower 101 to specific research categories.<br><br>
+                        </li>
+                        
+                        <li><span><i class="fa-solid fa-network-wired"></i> Networking Events</span><br><br>
+                            Organizing events to connect students with industry professionals.<br><br>
+                        </li>
+                        
+                        <li><span><i class="fa-solid fa-screwdriver-wrench"></i> Hands-On Experience</span><br><br>Hydropower Collegiate Competition participation
+                            gives members opportunities to engage in industry-standard research, siting, design, testing, 
+                            and reporting methods for hydropower system development.<br><br>
+                        </li>
+                        
+                        <li><span><i class="fa-solid fa-star"></i> And More!</span><br><br>
+                            We are committed to engaging in hydropower 
+                            learning opportunities outside of the classroom. Pilot year events 
+                            included site visits, such as touring the Chalk Hill Dam
+                            outside of Green Bay, and attending the annual Midwest Regional Hydropower
+                            Conference.<br><br>
+                            We are eager to continue providing our members with diverse experiences and learning opportunities.</li>
+                    </ul>
+                </div>
+                <!--
+                 <div class="tab-contents" id="Resources">
+                    <ul>
+                        <li><br><span></span><br>[<i class="fa-solid fa-helmet-safety"></i> Website Construction in Progress]</li>
+                    </ul>
+                </div>
+                -->
+                <br>
+            </div>
+        </div>
+
+<!-------------------------------HCC------------------------->
+<div id="hcc">
+    <div class="container">
+        <h1 class="sub-title">2027 Hydropower Collegiate Competition</h1>
+        <p><br>The HCC provides hands-on and educational opportunities for teams across the US to develop hydropower for non-powered dams, in-conduit systems. and pumped storage through various challenges listed below. 
+            This year, 15 collegiate teams are competing, including our UW-Madison Hydro Energy Team. 
+            Teams will attend the Final Event in late April, and winners can earn up to $15,000 in prize money.<br><br>
+            Our team will publish our competition deliverables and updates below throughout the school year.</p>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Siting</h2>
+                <p>Challenge consists of assessing and selecting a site for retrofit, PSH system, or in-conduit system.<br><br>See challenge deliverables below.</p>
+                <a href="#">Site Selection and Justification</a>
+                <a href="#">Design and Siting Poster</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h2>Technical Design</h2>
+                <p>Challenge consists of (1) designing a facility conceptual design or (2) creating a hydropower component deep dive design package.<br><br>See challenge deliverables below.</p>
+                <a href="#">Design Selection and Justification</a>
+                <a href="#">Final Siting and Technical Design Report</a>
+                <a href="#">Final Siting and Technical Design Presentation</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-people-group"></i>
+                <h2>Community Connections</h2>
+                <p>Challenge consists of engaging in and reporting on connecting with hydropower community and solving industry challenges.<br><br>See challenge deliverables below.</p>
+                <a href="#">Interview Summary, Outreach Strategy, Team Roster, and Team Overview</a>
+                <a href="#">Final Report</a><br>
+                <a href="#">Final Presentation</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gear"></i>
+                <h2>Build & Test</h2>
+                <p>Optional challenge consists of building and testing a scaled system compoonent.<br><br>See challenge deliverables below.</p>
+                <a href="#">Description of Testing Objectives</a>
+                <a href="#">Final Presentation</a>
+            </div>
+        </div>
+        <a href="https://www.herox.com/hydropower-collegiate-competition-2027" class="btn">More Info</a>
+    </div>
+</div>
+
+<!--------------------Leadership--------------------------->
+<div id="leadership">
+    <div class="container">
+        <h1 class="sub-title">Leadership Team</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Attachments/IMG_2494.jpg">
+                <div class="layer">
+                    <h3>Genevieve Eck <br>President</h3>
+                    <p>Mechanical Engineering | Projected 2028<br><br>
+                        UW Hydro Energy president, founder, website designer, and primary competition organizer.<br>
+                        </p>
+                    <div>
+                        <!--<a href=""><i class="fa-solid fa-link"></i></a>--><a href="https://www.linkedin.com/in/genevieve-eck-1b8882329"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Attachments/reganne.jpg">
+                <div class="layer">
+                    <h3>Reganne Hartman <br>Vice President</h3>
+                    <p>Biosystems Engineering | Projected 2028<br><br>
+                        <br>
+                        </p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/reganne-hartman-b82b95355/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Attachments/empty.png">
+                <div class="layer">
+                    <h3>Hulan Ganhuyag<br>Treasurer</h3>
+                    <p>Finance | Projected 2029<br><br>
+                        <br>
+                        </p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/hulan-ganhuyag-42452b379/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Attachments/yao.JPG">
+                <div class="layer">
+                    <h3>Yao Buchl<br>Outreach Coordinator</h3>
+                    <p>Mechanical Engineering | Projected 2029<br><br>
+                        <br>
+                        </p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/yao-buchl-5ab225233/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Attachments/keni.JPG">
+                <div class="layer">
+                    <h3>Keni Bai <br> Project Leader</h3>
+                    <p>Environmental Engineering | Projected 2028<br><br>
+                        <br>
+                        </p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/keni-bai-581755352/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+
+</div>
+
+
+<!-----------------------------Advisors----------------------------->
+<div id="mentors">
+    <div class="container">
+        <h1 class="sub-title">Mentorship Team</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Attachments/xiong.jpg">
+                <div class="layer">
+                    <h3>Yiying Xiong<br>Faculty Advisor</h3>
+                    <p>MBA, PMP, PE, F. ASCE<br>University of Wisconsin-Madison<br>Wisconsin Energy Institute<br><br></p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/yiying-xiong/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Attachments/franck.PNG">
+                <div class="layer">
+                    <h3>Jennifer Franck<br>Faculty Advisor</h3>
+                    <p>University of Wisconsin-Madison<br>Mechanical Engineering<br><br></p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/jeniferfranck/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Attachments/block.png">
+                <div class="layer">
+                    <h3>Paul Block<br>Faculty Advisor</h3>
+                    <p>University of Wisconsin-Madison<br>Civil Engineering<br><br></p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Attachments/hansen.jpg">
+                <div class="layer">
+                    <h3>Kim Hansen<br>Industry Advisor</h3>
+                    <p>Kleinschmidt Associates<br>Principal Consultant<br><br></p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/kim-hansen-1aa06621/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+
+</div>
+
+
+<!---------------------------------contact------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p>waterpowerwi@gmail.com</p>
+                <p></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/water-power-club-uw-madison-42a8073a0"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/waterpoweruw/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="https://win.wisc.edu/organization/waterpower" download class="btn btn2"><i class="fa-solid fa-arrow-up-right-from-square"></i> WIN Page</a>
+            </div>
+<!--
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea rows="5" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>-->
+<div class="copyright"><p>&copy; 2026 Genevieve Eck.</p></div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+    
+
+
+
+
+</body>
+</html>
